@@ -13,7 +13,7 @@ public class Problem11GetFirstOddOrEvenElements {
         }
         oddOrEven(parseToIntNumbers);
     }
-    public static void oddOrEven( int[] parseToIntNumbers){
+    public static void oddOrEven( int[] parseToIntNumbers){ // create a metod
         if (parseToIntNumbers.length % 2 == 0){
             for (int i = 0; i < parseToIntNumbers.length; i++) {
                 if (parseToIntNumbers[i] % 2 == 0){
