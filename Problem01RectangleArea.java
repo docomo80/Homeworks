@@ -6,6 +6,6 @@ public class Problem01RectangleArea {
         int a = input.nextInt();
         int b = input.nextInt();
         int area = a * b;
-        System.out.println(area);// result
+        System.out.println(area);//result
     }
 }
